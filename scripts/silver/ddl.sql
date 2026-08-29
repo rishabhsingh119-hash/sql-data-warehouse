@@ -4,7 +4,7 @@ CREATE TABLE silver.crm_cust_info (
     cst_key VARCHAR(50),
     cst_firstname VARCHAR(50),
     cst_lastname VARCHAR(50),
-    cst_material_status VARCHAR(50),
+    cst_marital_status VARCHAR(50),
     cst_gndr VARCHAR(50),
     cst_create_date DATE,
     dwh_create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
